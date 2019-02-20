@@ -1,0 +1,97 @@
+[{
+    "user_id": 0,
+    "description": "MORE INFO",
+    "photo": "https://images-na.ssl-images-amazon.com/images/I/51057J%2BJIzL.jpg",
+    "location": {
+      "lat": [
+        50.3
+      ],
+      "lng": [
+        4.2
+      ]
+    },
+    "time": 1544451365.400573,
+    "sensors": {
+      "light_sensor": [
+        1,
+        2,
+        3
+      ],
+      "ultrasonic_sensor": [
+        1,
+        2,
+        3
+      ],
+      "accelerometer": [
+        1,
+        2,
+        3
+      ]
+    },
+    "feedback": "SOS SIGNAL"
+  },
+  {
+    "user_id": 1,
+    "description": "MORE INFO",
+    "photo": "/home/pi/riots/PiCameraRecords/2018-12-10 15:16:04.jpg",
+    "location": {
+      "lat": [
+        50.2
+      ],
+      "lng": [
+        4.4
+      ]
+    },
+    "time": 1544451365.400573,
+    "sensors": {
+      "light_sensor": [
+        1,
+        2,
+        3
+      ],
+      "ultrasonic_sensor": [
+        1,
+        2,
+        3
+      ],
+      "accelerometer": [
+        1,
+        2,
+        3
+      ]
+    },
+    "feedback": "GOOD FEEDBACK"
+  },
+  {
+    "user_id": 2,
+    "description": "MORE INFO",
+    "photo": "/home/pi/riots/PiCameraRecords/2018-12-10 15:16:04.jpg",
+    "location": {
+      "lat": [
+        50.4
+      ],
+      "lng": [
+        4.3
+      ]
+    },
+    "time": 1544451365.400573,
+    "sensors": {
+      "light_sensor": [
+        1,
+        2,
+        3
+      ],
+      "ultrasonic_sensor": [
+        1,
+        2,
+        3
+      ],
+      "accelerometer": [
+        1,
+        2,
+        3
+      ]
+    },
+    "feedback": "BAD FEEDBACK"
+  }
+]
