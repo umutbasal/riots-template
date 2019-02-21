@@ -1,0 +1,80 @@
+#map {
+    height: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#filterMenu {
+    position: absolute;
+    margin: 10px 0 0 190px;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+    left: 0px;
+    top: 0px;
+}
+#riotsMenu {
+    position: absolute;
+    margin: 10px 0 0 480px;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+    left: 0px;
+    top: 0px;
+}
+
+#box {
+    direction: ltr;
+    overflow: hidden;
+    text-align: center;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, Arial, sans-serif;
+    user-select: none;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 17px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    background-clip: padding-box;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    min-width: 65px;
+    border-left: 0px;
+}
+
+input[type=checkbox].css-checkbox {
+    position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+    padding-left:27px;
+    height:22px; 
+    display:inline-block;
+    line-height:22px;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    font-size:18px;
+    vertical-align:middle;
+    cursor:pointer;
+
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+    background-position: 0 -22px;
+}
+label.css-label {
+background-image:url(img/checkbox.png);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
