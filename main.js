@@ -358,6 +358,38 @@ function initMap() {
     sosImage = 'img/sos.png';
     unkownImage = 'img/unkown.png';
     
+    filter = ["SOS SIGNAL", "BAD FEEDBACK", "GOOD FEEDBACK"]
+
+    $("[type='checkbox']").map((key, element) => {
+        $(element).click(() => {
+            if ($(element).prop("checked")) {
+                filter.push($(element).get(0).value)
+            } else {
+                index = filter.indexOf($(element).get(0).value)
+                if (index > -1) {
+                    filter.splice(index, 1)
+                }
+            }
+            filterData()
+        })
+    })
+
+    markers = []
+    
+    function filterData(){
+        markers.map((marker, key) => {
+            marker.setVisible(false)
+
+        })
+        filter.map((feedback, key) => {
+            markers.map((marker, key) => {
+                if (feedback == marker.category) {
+                    marker.setVisible(true)
+                }
+            })
+        })
+    }
+
     $.getJSON( "data.json", function( data ) {
         data.map(reg => {
             if (reg.feedback == "SOS SIGNAL") {
@@ -376,25 +408,30 @@ function initMap() {
                 image = unkownImage
                 animation = false
             }
+
             feedbackMarker = new google.maps.Marker({
                 position: {lat: reg.location.lat[0], lng: reg.location.lng[0]},
                 map: map,
                 icon: image,
                 animation: animation,
+                category: reg.feedback
                 });
-                
-                geocoder.geocode({'location': {lat: reg.location.lat[0], lng: reg.location.lng[0]}}, (results, status) => {
+            
+            markers.push(feedbackMarker)
+
+            google.maps.event.addListener(feedbackMarker, 'click', function(event) {
+                geocoder.geocode({'location': {lat: event.latLng.lat(), lng: event.latLng.lng()}}, (results, status) => {
                     if (status === 'OK' && results[0]) {
                         address = results[0].formatted_address
                     } else {
                         address = 'unkown'
                     }
-                })
-
-                google.maps.event.addListener(feedbackMarker, 'click', function() {
                     infowindow.setContent(`<div><h2>${reg.feedback}</h2><b>User ID: ${reg.user_id}</b><p><b>Location: </b>lat:${reg.location.lat},lng:${reg.location.lng}</p><p>${address}</p><p>${reg.description}</p><p><b>${timeConverter(reg.time)}</b></p><img width="320px" src="${reg.photo}"><h3>Sensors</h3><p><b>Light Sensor: </b>${reg.sensors.light_sensor}</p><p><b>Ultrasonic Sensor: </b>${reg.sensors.ultrasonic_sensor}</p><p><b>Accelerometer: </b>${reg.sensors.accelerometer}</p></div>`);
                     infowindow.open(map, this);
-                });
+                })
             });
-        })
-      };
+            
+        });
+    })
+
+};
