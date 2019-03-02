@@ -1,193 +1,711 @@
-[{
-    "user_id": 0,
-    "description": "MORE INFO",
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/51057J%2BJIzL.jpg",
-    "location": {
-      "lat": [
-        50.3
-      ],
-      "lng": [
-        4.2
-      ]
-    },
-    "time": 1544451365.400573,
-    "sensors": {
-      "light_sensor": [
-        1,
-        2,
-        3
-      ],
-      "ultrasonic_sensor": [
-        1,
-        2,
-        3
-      ],
-      "accelerometer": [
-        1,
-        2,
-        3
-      ]
-    },
-    "feedback": "SOS SIGNAL"
+[
+  {
+    "_id": 32111654,
+    "logs": [
+      {
+        "id": 321654101,
+        "typeOfLog": "BAD",
+        "time": 1551385980,
+        "distanceSensor": 23.78,
+        "tiltSensor": {
+          "yawn": 0.39,
+          "roll": 0.88,
+          "pitch": 0.66
+        },
+        "comment": "Adipisicing voluptate aliquip nulla fugiat fugiat sunt est velit.",
+        "gpsSensor": {
+          "latitude": 50.727832,
+          "longitude": 5.654256
+        },
+        "airSensor": {
+          "co2PPM": 56
+        }
+      },
+      {
+        "id": 321654102,
+        "typeOfLog": "GOOD",
+        "time": 1551487906,
+        "distanceSensor": 20.51,
+        "tiltSensor": {
+          "yawn": 1,
+          "roll": 0.1,
+          "pitch": 0.91
+        },
+        "comment": "Elit ea deserunt amet aliquip quis laborum duis commodo ullamco ipsum magna ipsum aute.",
+        "gpsSensor": {
+          "latitude": 50.590591,
+          "longitude": 2.706857
+        },
+        "airSensor": {
+          "co2PPM": 94
+        }
+      },
+      {
+        "id": 321654103,
+        "typeOfLog": "SOS",
+        "time": 1550330292,
+        "distanceSensor": 38.6,
+        "tiltSensor": {
+          "yawn": 0.9,
+          "roll": 0.99,
+          "pitch": 0.58
+        },
+        "comment": "Tempor est mollit laboris sint aliquip deserunt et labore.",
+        "gpsSensor": {
+          "latitude": 50.637294,
+          "longitude": 3.53724
+        },
+        "airSensor": {
+          "co2PPM": 64
+        }
+      },
+      {
+        "id": 321654104,
+        "typeOfLog": "GOOD",
+        "time": 1551121437,
+        "distanceSensor": 36.29,
+        "tiltSensor": {
+          "yawn": 0.67,
+          "roll": 0.97,
+          "pitch": 0.64
+        },
+        "comment": "Aliquip ullamco eu minim sunt mollit ea esse excepteur qui veniam excepteur commodo.",
+        "gpsSensor": {
+          "latitude": 51.155487,
+          "longitude": 2.611077
+        },
+        "airSensor": {
+          "co2PPM": 87
+        }
+      }
+    ]
   },
   {
-    "user_id": 1,
-    "description": "MORE INFO",
-    "photo": "https://ak5.picdn.net/shutterstock/videos/850225/thumb/1.jpg",
-    "location": {
-      "lat": [
-        50.2
-      ],
-      "lng": [
-        4.4
-      ]
-    },
-    "time": 1544451365.400573,
-    "sensors": {
-      "light_sensor": [
-        1,
-        2,
-        3
-      ],
-      "ultrasonic_sensor": [
-        1,
-        2,
-        3
-      ],
-      "accelerometer": [
-        1,
-        2,
-        3
-      ]
-    },
-    "feedback": "GOOD FEEDBACK"
+    "_id": 32111655,
+    "logs": [
+      {
+        "id": 321654101,
+        "typeOfLog": "GOOD",
+        "time": 1550353224,
+        "distanceSensor": 32.82,
+        "tiltSensor": {
+          "yawn": 0.65,
+          "roll": 0.39,
+          "pitch": 0.78
+        },
+        "comment": "Reprehenderit fugiat aliquip Lorem sint et nulla fugiat cillum ullamco consectetur do do quis.",
+        "gpsSensor": {
+          "latitude": 51.05266,
+          "longitude": 4.470283
+        },
+        "airSensor": {
+          "co2PPM": 89
+        }
+      },
+      {
+        "id": 321654102,
+        "typeOfLog": "SOS",
+        "time": 1549253954,
+        "distanceSensor": 18.85,
+        "tiltSensor": {
+          "yawn": 0.84,
+          "roll": 0.85,
+          "pitch": 0.6
+        },
+        "comment": "Ex nisi sunt nulla sunt veniam.",
+        "gpsSensor": {
+          "latitude": 51.034994,
+          "longitude": 4.530543
+        },
+        "airSensor": {
+          "co2PPM": 69
+        }
+      },
+      {
+        "id": 321654103,
+        "typeOfLog": "GOOD",
+        "time": 1550230165,
+        "distanceSensor": 32.94,
+        "tiltSensor": {
+          "yawn": 0.45,
+          "roll": 0.73,
+          "pitch": 0.87
+        },
+        "comment": "Nulla labore amet sit do nostrud nulla ad reprehenderit excepteur ullamco officia irure.",
+        "gpsSensor": {
+          "latitude": 50.773067,
+          "longitude": 2.860562
+        },
+        "airSensor": {
+          "co2PPM": 91
+        }
+      },
+      {
+        "id": 321654104,
+        "typeOfLog": "BAD",
+        "time": 1549941784,
+        "distanceSensor": 12.41,
+        "tiltSensor": {
+          "yawn": 0.85,
+          "roll": 0.16,
+          "pitch": 0.87
+        },
+        "comment": "Duis voluptate quis deserunt enim id.",
+        "gpsSensor": {
+          "latitude": 51.033923,
+          "longitude": 3.891497
+        },
+        "airSensor": {
+          "co2PPM": 74
+        }
+      },
+      {
+        "id": 321654105,
+        "typeOfLog": "BAD",
+        "time": 1549564299,
+        "distanceSensor": 35.72,
+        "tiltSensor": {
+          "yawn": 0.24,
+          "roll": 0.27,
+          "pitch": 0.83
+        },
+        "comment": "Cupidatat culpa culpa excepteur magna.",
+        "gpsSensor": {
+          "latitude": 50.31733,
+          "longitude": 3.990223
+        },
+        "airSensor": {
+          "co2PPM": 67
+        }
+      },
+      {
+        "id": 321654106,
+        "typeOfLog": "GOOD",
+        "time": 1550729206,
+        "distanceSensor": 26.92,
+        "tiltSensor": {
+          "yawn": 0.66,
+          "roll": 0.76,
+          "pitch": 0.97
+        },
+        "comment": "Cupidatat elit cillum consectetur eiusmod aliquip duis est.",
+        "gpsSensor": {
+          "latitude": 50.700268,
+          "longitude": 4.21036
+        },
+        "airSensor": {
+          "co2PPM": 76
+        }
+      },
+      {
+        "id": 321654107,
+        "typeOfLog": "SOS",
+        "time": 1550890425,
+        "distanceSensor": 29.92,
+        "tiltSensor": {
+          "yawn": 0.88,
+          "roll": 0.56,
+          "pitch": 0.73
+        },
+        "comment": "Sit consequat sunt ea dolor reprehenderit eu.",
+        "gpsSensor": {
+          "latitude": 50.976944,
+          "longitude": 4.855196
+        },
+        "airSensor": {
+          "co2PPM": 52
+        }
+      },
+      {
+        "id": 321654108,
+        "typeOfLog": "BAD",
+        "time": 1549319235,
+        "distanceSensor": 16.48,
+        "tiltSensor": {
+          "yawn": 0.64,
+          "roll": 0.18,
+          "pitch": 0.1
+        },
+        "comment": "Mollit sint eu aute consequat pariatur cillum in velit adipisicing laboris adipisicing.",
+        "gpsSensor": {
+          "latitude": 51.150749,
+          "longitude": 5.320716
+        },
+        "airSensor": {
+          "co2PPM": 79
+        }
+      }
+    ]
   },
   {
-    "user_id": 2,
-    "description": "MORE INFO",
-    "photo": "https://www.scarymommy.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-09-at-9.49.05-AM.png?w=700",
-    "location": {
-      "lat": [
-        50.4
-      ],
-      "lng": [
-        4.3
-      ]
-    },
-    "time": 1544451365.400573,
-    "sensors": {
-      "light_sensor": [
-        1,
-        2,
-        3
-      ],
-      "ultrasonic_sensor": [
-        1,
-        2,
-        3
-      ],
-      "accelerometer": [
-        1,
-        2,
-        3
-      ]
-    },
-    "feedback": "BAD FEEDBACK"
+    "_id": 32111656,
+    "logs": [
+      {
+        "id": 321654101,
+        "typeOfLog": "SOS",
+        "time": 1550987498,
+        "distanceSensor": 28.06,
+        "tiltSensor": {
+          "yawn": 0.38,
+          "roll": 0.75,
+          "pitch": 0.98
+        },
+        "comment": "Eiusmod minim do sunt magna anim Lorem magna occaecat esse tempor.",
+        "gpsSensor": {
+          "latitude": 50.31662,
+          "longitude": 5.51432
+        },
+        "airSensor": {
+          "co2PPM": 64
+        }
+      },
+      {
+        "id": 321654102,
+        "typeOfLog": "GOOD",
+        "time": 1551145875,
+        "distanceSensor": 34.19,
+        "tiltSensor": {
+          "yawn": 0.14,
+          "roll": 0.12,
+          "pitch": 0.63
+        },
+        "comment": "Quis sunt voluptate sunt esse occaecat.",
+        "gpsSensor": {
+          "latitude": 51.027717,
+          "longitude": 2.945116
+        },
+        "airSensor": {
+          "co2PPM": 64
+        }
+      },
+      {
+        "id": 321654103,
+        "typeOfLog": "SOS",
+        "time": 1550058609,
+        "distanceSensor": 39.35,
+        "tiltSensor": {
+          "yawn": 0.96,
+          "roll": 0.18,
+          "pitch": 0.72
+        },
+        "comment": "Fugiat ad anim irure mollit tempor exercitation qui nostrud nisi ex elit do sint.",
+        "gpsSensor": {
+          "latitude": 50.629295,
+          "longitude": 3.113877
+        },
+        "airSensor": {
+          "co2PPM": 64
+        }
+      },
+      {
+        "id": 321654104,
+        "typeOfLog": "BAD",
+        "time": 1550030394,
+        "distanceSensor": 25.61,
+        "tiltSensor": {
+          "yawn": 0.85,
+          "roll": 0.53,
+          "pitch": 0.37
+        },
+        "comment": "Ex proident dolor aliqua enim veniam nisi excepteur.",
+        "gpsSensor": {
+          "latitude": 51.007702,
+          "longitude": 2.733479
+        },
+        "airSensor": {
+          "co2PPM": 91
+        }
+      },
+      {
+        "id": 321654105,
+        "typeOfLog": "SOS",
+        "time": 1551230198,
+        "distanceSensor": 21.62,
+        "tiltSensor": {
+          "yawn": 0.18,
+          "roll": 0.21,
+          "pitch": 0.27
+        },
+        "comment": "Velit Lorem consectetur nostrud quis fugiat.",
+        "gpsSensor": {
+          "latitude": 50.827635,
+          "longitude": 5.29541
+        },
+        "airSensor": {
+          "co2PPM": 57
+        }
+      },
+      {
+        "id": 321654106,
+        "typeOfLog": "GOOD",
+        "time": 1549692176,
+        "distanceSensor": 39.7,
+        "tiltSensor": {
+          "yawn": 0.25,
+          "roll": 0.17,
+          "pitch": 0.51
+        },
+        "comment": "Nostrud velit nulla consectetur ut sit.",
+        "gpsSensor": {
+          "latitude": 50.772194,
+          "longitude": 4.734386
+        },
+        "airSensor": {
+          "co2PPM": 50
+        }
+      }
+    ]
   },
   {
-    "user_id": 3,
-    "description": "MORE INFO",
-    "photo": "https://thenypost.files.wordpress.com/2018/02/correction_aptopix_school_shooting_florida_155188056.jpg?quality=90&strip=all&w=618&h=410&crop=1",
-    "location": {
-      "lat": [
-        50.3
-      ],
-      "lng": [
-        4.4
-      ]
-    },
-    "time": 1544451365.400573,
-    "sensors": {
-      "light_sensor": [
-        1,
-        2,
-        3
-      ],
-      "ultrasonic_sensor": [
-        1,
-        2,
-        3
-      ],
-      "accelerometer": [
-        1,
-        2,
-        3
-      ]
-    },
-    "feedback": "GOOD FEEDBACK"
+    "_id": 32111657,
+    "logs": [
+      {
+        "id": 321654101,
+        "typeOfLog": "GOOD",
+        "time": 1549336521,
+        "distanceSensor": 25.11,
+        "tiltSensor": {
+          "yawn": 0.58,
+          "roll": 0.43,
+          "pitch": 0.3
+        },
+        "comment": "Id ipsum do magna tempor ipsum tempor irure.",
+        "gpsSensor": {
+          "latitude": 50.250202,
+          "longitude": 3.26814
+        },
+        "airSensor": {
+          "co2PPM": 74
+        }
+      },
+      {
+        "id": 321654102,
+        "typeOfLog": "GOOD",
+        "time": 1551115580,
+        "distanceSensor": 36.94,
+        "tiltSensor": {
+          "yawn": 0.28,
+          "roll": 0.53,
+          "pitch": 0.94
+        },
+        "comment": "Voluptate ut ipsum cillum velit voluptate culpa id fugiat reprehenderit.",
+        "gpsSensor": {
+          "latitude": 50.536864,
+          "longitude": 5.501011
+        },
+        "airSensor": {
+          "co2PPM": 57
+        }
+      },
+      {
+        "id": 321654103,
+        "typeOfLog": "SOS",
+        "time": 1550097531,
+        "distanceSensor": 26.03,
+        "tiltSensor": {
+          "yawn": 0.3,
+          "roll": 0.66,
+          "pitch": 0.33
+        },
+        "comment": "Ut quis excepteur dolor aliqua minim ut do et in reprehenderit.",
+        "gpsSensor": {
+          "latitude": 51.207966,
+          "longitude": 4.631994
+        },
+        "airSensor": {
+          "co2PPM": 82
+        }
+      },
+      {
+        "id": 321654104,
+        "typeOfLog": "GOOD",
+        "time": 1549733870,
+        "distanceSensor": 23.39,
+        "tiltSensor": {
+          "yawn": 0.28,
+          "roll": 0.98,
+          "pitch": 0.84
+        },
+        "comment": "Ullamco ut culpa fugiat deserunt do consectetur cillum ad enim.",
+        "gpsSensor": {
+          "latitude": 50.549376,
+          "longitude": 4.083354
+        },
+        "airSensor": {
+          "co2PPM": 60
+        }
+      },
+      {
+        "id": 321654105,
+        "typeOfLog": "GOOD",
+        "time": 1549505940,
+        "distanceSensor": 28.05,
+        "tiltSensor": {
+          "yawn": 0.87,
+          "roll": 0.2,
+          "pitch": 0.34
+        },
+        "comment": "Ea ea commodo esse nisi aliquip dolor aliqua.",
+        "gpsSensor": {
+          "latitude": 50.685944,
+          "longitude": 2.860171
+        },
+        "airSensor": {
+          "co2PPM": 60
+        }
+      },
+      {
+        "id": 321654106,
+        "typeOfLog": "SOS",
+        "time": 1549632467,
+        "distanceSensor": 34.17,
+        "tiltSensor": {
+          "yawn": 0.11,
+          "roll": 0.5,
+          "pitch": 0.74
+        },
+        "comment": "Veniam cillum excepteur commodo enim occaecat.",
+        "gpsSensor": {
+          "latitude": 51.264756,
+          "longitude": 5.43543
+        },
+        "airSensor": {
+          "co2PPM": 85
+        }
+      },
+      {
+        "id": 321654107,
+        "typeOfLog": "GOOD",
+        "time": 1549461755,
+        "distanceSensor": 30.4,
+        "tiltSensor": {
+          "yawn": 0.29,
+          "roll": 0.77,
+          "pitch": 0.17
+        },
+        "comment": "Veniam officia in incididunt incididunt tempor voluptate et tempor est laborum cillum dolore esse.",
+        "gpsSensor": {
+          "latitude": 51.008995,
+          "longitude": 2.819384
+        },
+        "airSensor": {
+          "co2PPM": 87
+        }
+      },
+      {
+        "id": 321654108,
+        "typeOfLog": "GOOD",
+        "time": 1549044210,
+        "distanceSensor": 20.81,
+        "tiltSensor": {
+          "yawn": 0.78,
+          "roll": 0.75,
+          "pitch": 0.46
+        },
+        "comment": "Adipisicing id do nulla magna laboris ad reprehenderit minim occaecat.",
+        "gpsSensor": {
+          "latitude": 51.102259,
+          "longitude": 4.399884
+        },
+        "airSensor": {
+          "co2PPM": 87
+        }
+      }
+    ]
   },
   {
-    "user_id": 4,
-    "description": "MORE INFO",
-    "photo": "https://www.680news.com/wp-content/blogs.dir/sites/2/2016/08/0822-regentparkshooting.jpg",
-    "location": {
-      "lat": [
-        50.5
-      ],
-      "lng": [
-        4.6
-      ]
-    },
-    "time": 1544451365.400573,
-    "sensors": {
-      "light_sensor": [
-        1,
-        2,
-        3
-      ],
-      "ultrasonic_sensor": [
-        1,
-        2,
-        3
-      ],
-      "accelerometer": [
-        1,
-        2,
-        3
-      ]
-    },
-    "feedback": "GOOD FEEDBACK"
-  },
-  {
-    "user_id": 5,
-    "description": "MORE INFO",
-    "photo": "https://www.ctvnews.ca/polopoly_fs/1.3804034.1518651902!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg",
-    "location": {
-      "lat": [
-        49.8
-      ],
-      "lng": [
-        4.1
-      ]
-    },
-    "time": 1544451365.400573,
-    "sensors": {
-      "light_sensor": [
-        1,
-        2,
-        3
-      ],
-      "ultrasonic_sensor": [
-        1,
-        2,
-        3
-      ],
-      "accelerometer": [
-        1,
-        2,
-        3
-      ]
-    },
-    "feedback": "GOOD FEEDBACK"
+    "_id": 32111658,
+    "logs": [
+      {
+        "id": 321654101,
+        "typeOfLog": "GOOD",
+        "time": 1551169721,
+        "distanceSensor": 28.34,
+        "tiltSensor": {
+          "yawn": 0.14,
+          "roll": 0.81,
+          "pitch": 0.52
+        },
+        "comment": "Nostrud cupidatat fugiat esse Lorem nulla consequat occaecat sint labore ut elit laboris.",
+        "gpsSensor": {
+          "latitude": 50.704671,
+          "longitude": 3.359802
+        },
+        "airSensor": {
+          "co2PPM": 78
+        }
+      },
+      {
+        "id": 321654102,
+        "typeOfLog": "SOS",
+        "time": 1551338873,
+        "distanceSensor": 32.84,
+        "tiltSensor": {
+          "yawn": 0.8,
+          "roll": 0.33,
+          "pitch": 0.43
+        },
+        "comment": "Consequat sint est et commodo eiusmod nisi exercitation ipsum fugiat.",
+        "gpsSensor": {
+          "latitude": 50.769048,
+          "longitude": 3.160883
+        },
+        "airSensor": {
+          "co2PPM": 54
+        }
+      },
+      {
+        "id": 321654103,
+        "typeOfLog": "BAD",
+        "time": 1549330840,
+        "distanceSensor": 21.99,
+        "tiltSensor": {
+          "yawn": 0.97,
+          "roll": 0.71,
+          "pitch": 0.99
+        },
+        "comment": "Consequat incididunt aliqua mollit sint enim culpa anim minim enim magna aute enim.",
+        "gpsSensor": {
+          "latitude": 50.942491,
+          "longitude": 3.608835
+        },
+        "airSensor": {
+          "co2PPM": 83
+        }
+      },
+      {
+        "id": 321654104,
+        "typeOfLog": "BAD",
+        "time": 1549448991,
+        "distanceSensor": 38.27,
+        "tiltSensor": {
+          "yawn": 0.67,
+          "roll": 0.47,
+          "pitch": 0.76
+        },
+        "comment": "Lorem consectetur in excepteur officia magna dolor occaecat minim qui.",
+        "gpsSensor": {
+          "latitude": 50.758992,
+          "longitude": 4.721689
+        },
+        "airSensor": {
+          "co2PPM": 53
+        }
+      },
+      {
+        "id": 321654105,
+        "typeOfLog": "SOS",
+        "time": 1550219528,
+        "distanceSensor": 33.01,
+        "tiltSensor": {
+          "yawn": 0.89,
+          "roll": 0.96,
+          "pitch": 0.87
+        },
+        "comment": "Duis sint occaecat ullamco ut.",
+        "gpsSensor": {
+          "latitude": 50.568576,
+          "longitude": 5.459267
+        },
+        "airSensor": {
+          "co2PPM": 70
+        }
+      },
+      {
+        "id": 321654106,
+        "typeOfLog": "GOOD",
+        "time": 1550601238,
+        "distanceSensor": 16.86,
+        "tiltSensor": {
+          "yawn": 0.79,
+          "roll": 0.78,
+          "pitch": 0.23
+        },
+        "comment": "Consectetur veniam officia amet cillum id excepteur officia dolore velit.",
+        "gpsSensor": {
+          "latitude": 50.987868,
+          "longitude": 2.678514
+        },
+        "airSensor": {
+          "co2PPM": 70
+        }
+      },
+      {
+        "id": 321654107,
+        "typeOfLog": "BAD",
+        "time": 1549710124,
+        "distanceSensor": 23.9,
+        "tiltSensor": {
+          "yawn": 0.53,
+          "roll": 0.9,
+          "pitch": 0.15
+        },
+        "comment": "Dolor ullamco eiusmod cupidatat sunt consectetur reprehenderit culpa reprehenderit adipisicing.",
+        "gpsSensor": {
+          "latitude": 50.297723,
+          "longitude": 3.038932
+        },
+        "airSensor": {
+          "co2PPM": 98
+        }
+      },
+      {
+        "id": 321654108,
+        "typeOfLog": "SOS",
+        "time": 1549761123,
+        "distanceSensor": 23.31,
+        "tiltSensor": {
+          "yawn": 0.99,
+          "roll": 0.95,
+          "pitch": 0.97
+        },
+        "comment": "Tempor irure ullamco aute nostrud.",
+        "gpsSensor": {
+          "latitude": 50.458021,
+          "longitude": 4.471309
+        },
+        "airSensor": {
+          "co2PPM": 93
+        }
+      },
+      {
+        "id": 321654109,
+        "typeOfLog": "SOS",
+        "time": 1550139164,
+        "distanceSensor": 23.37,
+        "tiltSensor": {
+          "yawn": 0.63,
+          "roll": 0.81,
+          "pitch": 0.74
+        },
+        "comment": "Commodo proident fugiat ad culpa.",
+        "gpsSensor": {
+          "latitude": 50.242531,
+          "longitude": 3.137785
+        },
+        "airSensor": {
+          "co2PPM": 84
+        }
+      },
+      {
+        "id": 321654110,
+        "typeOfLog": "SOS",
+        "time": 1549905234,
+        "distanceSensor": 29.01,
+        "tiltSensor": {
+          "yawn": 0.41,
+          "roll": 0.74,
+          "pitch": 0.88
+        },
+        "comment": "Ut deserunt adipisicing culpa nulla qui ipsum officia ipsum officia.",
+        "gpsSensor": {
+          "latitude": 51.068307,
+          "longitude": 2.651471
+        },
+        "airSensor": {
+          "co2PPM": 78
+        }
+      }
+    ]
   }
 ]
