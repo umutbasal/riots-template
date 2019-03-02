@@ -12,3 +12,5 @@ https://snazzymaps.com/editor/customize/129826
 Stats Page
 https://codepen.io/Gronghon/full/WvZQpg
 
+JSON DATA GENERATOR
+https://www.json-generator.com/
