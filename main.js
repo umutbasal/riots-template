@@ -15,7 +15,7 @@ function initMap() {
     var geocoder = new google.maps.Geocoder;
     var infowindow = new google.maps.InfoWindow();
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 8,
+      zoom: 9,
       center: {lat: 50.850610, lng: 4.351009},
 
 
@@ -124,25 +124,41 @@ function initMap() {
 
     markers = []
     
+    device = "all"
+
     function filterData(){
         markers.map((marker, key) => {
             marker.setVisible(false)
-
         })
         filter.map((typeOfLog, key) => {
             markers.map((marker, key) => {
-                if (typeOfLog == marker.category) {
-                    marker.setVisible(true)
-                    if (marker.getAnimation() != null) {
-                        marker.setAnimation(marker.getAnimation());
-                      }
+                if(device == "all") {
+                    if (typeOfLog == marker.category) {
+                        marker.setVisible(true)
+                        if (marker.getAnimation() != null) {
+                            marker.setAnimation(marker.getAnimation());
+                          }
+                    }
+                } else {
+                    if (typeOfLog == marker.category && device == marker.deviceId) {
+                        marker.setVisible(true)
+                        if (marker.getAnimation() != null) {
+                            marker.setAnimation(marker.getAnimation());
+                          }
+                    }
                 }
             })
         })
     }
 
+    $('#deviceList').on('change', function() {
+        device = $(this).val();
+        filterData()
+    })
+
     $.getJSON( "data.json", function( data ) {
         data.map(device => {
+            $('#deviceList').append(`<option value="${device._id}">${device._id}</option>`);
             device.logs.map(reg => {
                 if (reg.typeOfLog == "SOS") {
                     image = sosImage
@@ -163,7 +179,8 @@ function initMap() {
                     map: map,
                     icon: image,
                     animation: animation,
-                    category: reg.typeOfLog
+                    category: reg.typeOfLog,
+                    deviceId: device._id
                     });
                 
                 markers.push(typeOfLogMarker)
