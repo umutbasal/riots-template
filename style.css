@@ -25,6 +25,16 @@ html, body {
     top: 0px;
 }
 
+#riotsInfo {
+    position: absolute;
+    margin: 10px 0 0 730px;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+    left: 0px;
+    top: 0px;
+}
+
 #box {
     direction: ltr;
     overflow: hidden;
@@ -77,4 +87,9 @@ background-image:url(img/checkbox.png);
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
+}
+
+#deviceList {
+    width: 115px;
+    padding: 5px;
 }
